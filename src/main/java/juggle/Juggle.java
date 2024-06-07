@@ -15,7 +15,7 @@ public class Juggle implements ModInitializer {
 	public static final String MOD_ID = "juggle";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-	public static final JugglersBall JUGGLERS_BALL = new JugglersBall(new Settings());
+	public static final JugglersBall JUGGLERS_BALL = new JugglersBall(new Settings().maxCount(1));
 
 	@Override
 	public void onInitialize() {
