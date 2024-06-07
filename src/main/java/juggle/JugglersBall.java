@@ -23,5 +23,4 @@ public class JugglersBall extends Item {
 
 		return TypedActionResult.success(item);
 	}
-
 }
